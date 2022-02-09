@@ -1,3 +1,4 @@
+#import all the required libraries
 import imutils
 import cv2
 import os

@@ -7,8 +7,6 @@ import cv2
 
 app = Flask(__name__)
 
-# do function that checks for uploaded file types (extensions).
-# https://stackoverflow.com/questions/41105700/how-can-i-restrict-the-file-types-a-user-can-upload-to-my-form
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 

@@ -6,12 +6,7 @@
 	<title>Upload</title>
 </head>
 
-<style>
-head {text-align: center;}
-form {text-align: center;}
-h1 {text-align: center;}
-div {text-align: center;}
-</style>	
+	
 
 <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/613ebc713d78bd6d64e763b8_IJBbdBDp67rtR1bfd0GVlcu5kQIIOX5ExT3I8w7f7UGV90_-SwP-lOfF61k6Npq_4SqPiXnQnVgRXwFmNe8c0OctDfb0p_ScrJGWNkgu7S1UKZmk_BsYb-_C11OGXciC8IjqMfO2%3Ds0.png" alt="" width="468" height="264" /></p>
 
@@ -20,7 +15,16 @@ div {text-align: center;}
 <tr style="height: 61px;">
 <td style="width: 100%; height: 61px;">&nbsp;</td>
 
-<body style="border:3px; border-style:solid; border-color:#FF0000; padding: 1em; background-color:white;">
+<body style="border:3px; border-style:solid; border-color:#000000; padding: 1em; background-color:white;">
+	
+<style>
+head {text-align: center;}
+form {text-align: center;}
+h1 {text-align: center;}
+div {text-align: center;}
+</style>
+	
+	
 	<h1>Upload your favorite image(s) and select a style you would like to use</h1>
 	<form id="upload-form" action="{{url_for('upload')}}" method= "POST" enctype="multipart/form-data">
 		<input type="file" name="file" accept="image/*" multiple>
